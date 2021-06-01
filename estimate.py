@@ -14,7 +14,9 @@ def monte_carlo(n):
       A_square = A_square + 1
     else:
       A_square = A_square + 1
-  return(4 * (A_circle / A_square))
+  res = (4 * (A_circle / A_square))
+  return res
+
 
 def wallis(n):
   res = 2.
